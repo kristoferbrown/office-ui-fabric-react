@@ -11,8 +11,7 @@
   user-select: none;
   display: flex;
   flex-wrap: nowrap;
-  min-width: 100px;
-  max-width: 100%;
+  max-width: 300px;
 
   &:hover {
     background: $ms-color-neutralLight;
@@ -30,7 +29,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  min-width: 100px;
   margin: 0 8px;
 }
 
