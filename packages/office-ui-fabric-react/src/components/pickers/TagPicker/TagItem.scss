@@ -19,9 +19,18 @@
 
   &.isSelected {
     background: $ms-color-neutralQuaternary;
+
+    @media screen and (-ms-high-contrast: active) {
+      border: 1px solid WindowFrame;
+    }
+
     &:hover {
       background: $ms-color-neutralQuaternaryAlt;
     }
+  }
+
+  @media screen and (-ms-high-contrast: active) {
+    border: 1px solid WindowText;
   }
 }
 
